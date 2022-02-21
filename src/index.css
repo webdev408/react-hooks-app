@@ -6,8 +6,44 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container{
+  width: 90%;
+  margin: .5rem auto;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  text-align: center;
+}
+.user-detail{
+  background-color: rgb(139, 167, 218);
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  padding: .5rem 0;
+  color:whitesmoke;
+  box-shadow: 2px 5px 10px gray;
+  border-radius:1rem;
+}
+.footer{
+  text-align: center;
+  background-color:lemonchiffon;
+  padding: .3rem;
+  display:grid;
+  place-content: center;
+  border-radius: 1rem;
+}
+nav{ 
+  width:100%;
+ background-color:lightblue; 
+ display:block; 
+}
+nav > .list > .link > .item{
+  text-decoration:none;  
+}
+.link{
+  display: inline-block;
+  margin-left: 5rem;
+    margin-right: 20px;
+    padding: 1rem;
+    list-style:none;     
 }
